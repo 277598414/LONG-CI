@@ -1,8 +1,11 @@
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=n
 CONFIG_PACKAGE_luci-app-nikki=n
-CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-ssr-plus=n
+CONFIG_PACKAGE_luci-app-openclash=n
+CONFIG_PACKAGE_luci-app-ssr-plus=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_NONE_V2RAY=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_V2ray_Plugin=y
 #插件调整
 CONFIG_PACKAGE_default-settings=y
 CONFIG_PACKAGE_default-settings-chn=y
